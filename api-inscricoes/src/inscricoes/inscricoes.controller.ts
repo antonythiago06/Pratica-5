@@ -1,13 +1,4 @@
-import {
-  Body,
-  Controller,
-  Get,
-  HttpStatus,
-  ParseFilePipeBuilder,
-  Post,
-  UploadedFile,
-  UseInterceptors,
-} from '@nestjs/common';
+import { Body,Controller,Get,HttpStatus,ParseFilePipeBuilder,Post,  UploadedFile, UseInterceptors,} from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { CreateInscricaoDto } from './dto/create-inscricao.dto';
 import { InscricoesService } from './inscricoes.service';

@@ -1,13 +1,5 @@
 import { Transform } from 'class-transformer';
-import {
-  IsBoolean,
-  IsEmail,
-  IsInt,
-  IsNotEmpty,
-  IsOptional,
-  IsString,
-  Min,
-} from 'class-validator';
+import { IsBoolean,IsEmail,IsInt,IsNotEmpty,IsOptional,IsString,Min,} from 'class-validator';
 
 export class CreateInscricaoDto {
   @Transform(({ value }: { value: unknown }): unknown =>
